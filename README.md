@@ -27,4 +27,4 @@ licenseNumber | manufacturer_id | country | driver_id
 - JSP
 - JSTL
 - DAO and Service layers
-- Custom Exception# TAXI-SERVICE
+- Custom Exception

@@ -7,7 +7,7 @@ Driver | Car | Manufacturer | Cars_Drivers
 name | model | name | car_id
 licenseNumber | manufacturer_id | country | driver_id
 
-## You can
+## You get a small interface to control the basic functions of the taxi service. You can :
 - **Register new driver**
 - **Show all drivers**
 - **Register new manufacturer**
@@ -26,5 +26,5 @@ licenseNumber | manufacturer_id | country | driver_id
 - JAVA JDBC
 - JSP
 - JSTL
-- DAO and Service layer
+- DAO and Service layers
 - Custom Exception# TAXI-SERVICE

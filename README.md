@@ -15,8 +15,8 @@ licenseNumber | manufacturer_id | country | driver_id
 - **Adding driver to car**
 
 ## For start 
-1. Configure access to your database in class ConnectionUtil ![](https://i.imgur.com/6xASjwX.png)
-2. Create schema and tables as described in the file `init_db.sql`
+1. Create schema and tables as described in the file `init_db.sql`
+2. Configure access to your database in class ConnectionUtil ![](https://i.imgur.com/6xASjwX.png)
 3. let's install `Tomcat 9.0.50`. If you decide to install version 10 and above, you should use a different dependency for servlets and JSTL as well.
 4. RUN application
 

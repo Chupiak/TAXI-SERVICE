@@ -27,4 +27,5 @@ licenseNumber | manufacturer_id | country | driver_id
 - JSP
 - JSTL
 - DAO and Service layers
+- Dependency injection
 - Custom Exception

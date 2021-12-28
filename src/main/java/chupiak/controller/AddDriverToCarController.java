@@ -1,5 +1,10 @@
 package chupiak.controller;
 
+import chupiak.lib.Injector;
+import chupiak.model.Car;
+import chupiak.model.Driver;
+import chupiak.service.CarService;
+import chupiak.service.DriverService;
 import java.io.IOException;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -8,11 +13,6 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import chupiak.lib.Injector;
-import chupiak.model.Car;
-import chupiak.model.Driver;
-import chupiak.service.CarService;
-import chupiak.service.DriverService;
 
 @WebServlet(urlPatterns = "/cars/drivers/add")
 public class AddDriverToCarController extends HttpServlet {

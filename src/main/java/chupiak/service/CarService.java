@@ -1,8 +1,8 @@
 package chupiak.service;
 
-import java.util.List;
 import chupiak.model.Car;
 import chupiak.model.Driver;
+import java.util.List;
 
 public interface CarService extends GenericService<Car> {
     void addDriverToCar(Driver driver, Car car);

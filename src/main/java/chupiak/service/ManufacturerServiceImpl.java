@@ -1,10 +1,10 @@
 package chupiak.service;
 
-import java.util.List;
 import chupiak.dao.ManufacturerDao;
 import chupiak.lib.Inject;
 import chupiak.lib.Service;
 import chupiak.model.Manufacturer;
+import java.util.List;
 
 @Service
 public class ManufacturerServiceImpl implements ManufacturerService {

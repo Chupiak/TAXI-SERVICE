@@ -1,14 +1,14 @@
 package chupiak.controller;
 
+import chupiak.lib.Injector;
+import chupiak.model.Manufacturer;
+import chupiak.service.ManufacturerService;
 import java.io.IOException;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import chupiak.lib.Injector;
-import chupiak.model.Manufacturer;
-import chupiak.service.ManufacturerService;
 
 @WebServlet(urlPatterns = "/manufacturers/create")
 public class CreateManufacturerController extends HttpServlet {

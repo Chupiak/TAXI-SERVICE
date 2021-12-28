@@ -1,5 +1,11 @@
 package chupiak.dao;
 
+import chupiak.exception.DataProcessingException;
+import chupiak.lib.Dao;
+import chupiak.model.Car;
+import chupiak.model.Driver;
+import chupiak.model.Manufacturer;
+import chupiak.util.ConnectionUtil;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -9,12 +15,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
-import chupiak.exception.DataProcessingException;
-import chupiak.lib.Dao;
-import chupiak.model.Car;
-import chupiak.model.Driver;
-import chupiak.model.Manufacturer;
-import chupiak.util.ConnectionUtil;
 
 @Dao
 public class CarDaoImpl implements CarDao {
